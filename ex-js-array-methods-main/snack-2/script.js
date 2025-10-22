@@ -5,8 +5,10 @@ const people = [
 ];
 
 // Stampa in console tutti i nomi
-
-
+/*for (let i = 0; i < people.length; i++) {
+  const person = people[i];
+  console.log(person.name)
+}*/
 people.forEach(element => {
    const personNames= element.name
   console.log(personNames)

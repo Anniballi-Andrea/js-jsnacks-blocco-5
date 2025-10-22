@@ -20,6 +20,22 @@ const students = [
 ];
 
 // Recupera i dati dello studente con id 2
+/*for (let i = 0; i <students.length; i++) {
+  const el = students[i];
+  if (el.id == 2){
+    console.log(el)
+  }
+  
+}
+students.forEach(el => {
+  if (el.id == 2){
+    console.log(el)
+  }
+}
+  
+);*/
+
+
 const student = students.find((el) => el.id == 2)
 console.log(student)
 

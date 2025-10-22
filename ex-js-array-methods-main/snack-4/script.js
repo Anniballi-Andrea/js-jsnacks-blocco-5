@@ -6,12 +6,19 @@ const posts = [
 ]
 
 // Crea un nuovo array coi nomi di tutti gli autori
-/*let authors =[]
+/*let authorsBis =[]
+for(let i = 0; i < posts.length; i++){
+  const el = posts[i]
+  authorsBis.push(el.author)
+
+}
+  
 posts.forEach((el) => {
  console.log(el.author)
- authors.push(el.author)
+ authorsBis.push(el.author)
 
-});*/
+});
+console.log(authorsBis)*/
 const authors = posts.map((el)=> el.author)
 
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
