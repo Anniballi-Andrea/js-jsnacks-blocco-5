@@ -6,4 +6,13 @@ const posts = [
 ]
 
 // Crea un nuovo array coi nomi di tutti gli autori
+/*let authors =[]
+posts.forEach((el) => {
+ console.log(el.author)
+ authors.push(el.author)
+
+});*/
+const authors = posts.map((el)=> el.author)
+
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+console.log(authors)
