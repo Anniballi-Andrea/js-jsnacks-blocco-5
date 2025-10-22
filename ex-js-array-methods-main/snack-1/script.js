@@ -2,5 +2,13 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 
 // Stampa in console tutti i nomi
 
-console.log(names.toString())
+/*for (let i = 0; i < names.length; i++) {
+    const name = names[i];
+    console.log(name)
+    
+}*/
+names.forEach(element => {
+    console.log(element)
+});
+
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
